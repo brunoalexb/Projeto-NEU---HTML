@@ -132,3 +132,11 @@ body {
     border-color: #ECD6C4;
 
 }
+
+.rodape-curriculo-link {
+    border: none;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #ECD6C4; 
+}
