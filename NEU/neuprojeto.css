@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #1b1b24 16.62%, #19143a 85.61%)
+}
+
+.cabeçalho-curriculo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabeçalho-curriculo-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.nav-link {
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.curriculo-conteudo {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.curriculo-conteudo-formaçao {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-around;
+}
+
+.curriculo-conteudo-formaçao-central {
+    display:flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.curriculo-conteudo-formaçao-header {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 50px;
+    color:#FFF2E7;
+}
+
+.curriculo-conteudo-formaçao-faculdade {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ECD6C4;
+}
+
+.curriculo-conteudo-experiencias {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-around;
+}
+
+.curriculo-conteudo-experiencias-centrais {
+    display:flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.curriculo-conteudo-experiencias-header {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 50px;
+    color:#FFF2E7;
+    gap: 32px;
+}
+
+.curriculo-conteudo-experiencias-trabalhos {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ECD6C4;
+}
+
+.curriculo-conteudo-competencias {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-around;
+}
+
+.curriculo-conteudo-competencias-centrais {
+    display:flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.curriculo-conteudo-competencias-header {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 50px;
+    color:#FFF2E7;
+}
+
+.curriculo-conteudo-competencias-conhecimentos {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ECD6C4;
+}
+
+.rodape-curriculo {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    border-top: 0.4px solid #FFF2E7;
+    align-items: center;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color:#ECD6C4;
+    border-color: #ECD6C4;
+
+}

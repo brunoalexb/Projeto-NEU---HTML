@@ -17,6 +17,8 @@ body {
 .central {
     margin-bottom: 48px;
     border-top: 0.4px solid #FFF2E7;
+    padding: 24px;
+    justify-content: space-around;
 }
 
 .central-inicio {
